@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Models", "MusicStore.Models\MusicStore.Models.csproj", "{A0D84CF5-900C-4788-858D-2057E23C07EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Data", "MusicStore.Data\MusicStore.Data.csproj", "{3F9A9777-AA86-43A1-8540-8A3D748EDEA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Common", "MusicStore.Common\MusicStore.Common.csproj", "{7E467D2D-2EF7-4A66-B824-07B66C028317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Client", "MusicStore.Client\MusicStore.Client.csproj", "{A02B8E62-3A6C-43A8-98AA-C76D9E643F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Services", "MusicStore.Services\MusicStore.Services.csproj", "{FB66B5ED-A19B-4E9C-A723-A9287F23D48B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0D84CF5-900C-4788-858D-2057E23C07EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D84CF5-900C-4788-858D-2057E23C07EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D84CF5-900C-4788-858D-2057E23C07EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D84CF5-900C-4788-858D-2057E23C07EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F9A9777-AA86-43A1-8540-8A3D748EDEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9A9777-AA86-43A1-8540-8A3D748EDEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9A9777-AA86-43A1-8540-8A3D748EDEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9A9777-AA86-43A1-8540-8A3D748EDEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E467D2D-2EF7-4A66-B824-07B66C028317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E467D2D-2EF7-4A66-B824-07B66C028317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E467D2D-2EF7-4A66-B824-07B66C028317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E467D2D-2EF7-4A66-B824-07B66C028317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02B8E62-3A6C-43A8-98AA-C76D9E643F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02B8E62-3A6C-43A8-98AA-C76D9E643F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02B8E62-3A6C-43A8-98AA-C76D9E643F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02B8E62-3A6C-43A8-98AA-C76D9E643F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB66B5ED-A19B-4E9C-A723-A9287F23D48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB66B5ED-A19B-4E9C-A723-A9287F23D48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB66B5ED-A19B-4E9C-A723-A9287F23D48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB66B5ED-A19B-4E9C-A723-A9287F23D48B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
+	EndGlobalSection
+EndGlobal
