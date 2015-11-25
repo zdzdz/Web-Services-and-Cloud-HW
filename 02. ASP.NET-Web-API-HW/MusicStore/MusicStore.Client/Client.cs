@@ -100,7 +100,7 @@
         private static void SentDataToService(IDataSender dataSender, UnitCollectionsModel generatedData, HttpClient client)
         {
             var response = dataSender.SentData(generatedData, client);
-            Console.WriteLine(response ? "Data is successfully sended!" : "Data is unsuccessfully sended!");
+            Console.WriteLine(response ? "Data is successfully sent!" : "Data is unsuccessfully sent!");
         }
 
         private static void InitializeGenerators(out IRandomGenerator randomGenerator, out IDataGenerator dataGenerator)

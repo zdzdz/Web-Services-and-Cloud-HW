@@ -2,7 +2,7 @@
 {
     public static class WebServiceConstants
     {
-        public const string BaseUri = "http://localhost:63211/";
+        public const string BaseUri = "http://localhost:8295/";
 
         public const string GetSongsRoute = "api/Song/All";
 
